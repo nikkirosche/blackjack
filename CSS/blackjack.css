@@ -1,0 +1,33 @@
+body {
+    background-color: #019267;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    
+}
+
+.left-rocket {
+    max-width: 35px;
+    max-height: 35px;
+
+}
+
+.right-rocket {
+    max-width: 35px;
+    max-height: 35px;
+
+}
+
+.left-poker {
+    max-width: 40px;
+    max-height: 40px;
+
+}
+
+.right-poker {
+    max-width: 40px;
+    max-height: 40px;
+
+}
