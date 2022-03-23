@@ -77,16 +77,22 @@ var checkForBlackJack = function () {
         currentGameMode = GAME_RESULTS_SHOWN;
         instructionsOutput.innerHTML = "DEALER AND PLAYER HAS 21, DRAW ---- press reset to play again"
         disableHitStand(true)
+        document.querySelector("#reset-button").disabled = false;
+        document.querySelector("#reveal-button").disabled = false;
     }
     else if (playerPoints === 21 && dealerPoints !== 21) {
         currentGameMode = GAME_RESULTS_SHOWN;
         instructionsOutput.innerHTML = "PLAYER WINS, press reset to play again"
         disableHitStand(true)
+        document.querySelector("#reset-button").disabled = false;
+        document.querySelector("#reveal-button").disabled = false;
     }
     else if (dealerPoints === 21 && playerPoints !== 21) {
         currentGameMode = GAME_RESULTS_SHOWN;
         instructionsOutput.innerHTML = "DEALER WINS, press reset to play again"
         disableHitStand(true)
+        document.querySelector("#reset-button").disabled = false;
+        document.querySelector("#reveal-button").disabled = false;
     }
     else {
         currentGameMode = GAME_CARDS_DRAWN;
