@@ -4,30 +4,80 @@ body {
     text-align: center;
 }
 
-h1 {
-    
+hr {
+    border-style: dotted none none;
+    width: 30%;
+    border-width: 7px;
+    color: #C3E5AE;
+    margin: 2px auto;
 }
 
-.left-rocket {
+.container {
+    background-color: #97DBAE;
+    margin: 30px auto;
+    width: 800px;
+    padding: 50px 50px;
+    display: inline-block;
+    text-align: left;
+}
+
+
+#button {
+    font-size: 20px;
+    line-height: 35px;
+    margin: 0 0 20px 0;
+    padding: 0 10px;
+}
+
+#output {
+    background-color: #C3E5AE;
+    margin: 20px auto;
+    padding: 10px 5px;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.title1, .title2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title1 img, .title2 img{
     max-width: 35px;
     max-height: 35px;
-
+    margin: 0 15px 0px 15px;
 }
 
-.right-rocket {
-    max-width: 35px;
-    max-height: 35px;
-
+.custom-button {
+    background: #34d965;
+    background-image: -webkit-linear-gradient(top, #34d965, #b6b82b);
+    background-image: -moz-linear-gradient(top, #34d965, #b6b82b);
+    background-image: -ms-linear-gradient(top, #34d965, #b6b82b);
+    background-image: -o-linear-gradient(top, #34d965, #b6b82b);
+    background-image: linear-gradient(to bottom, #34d965, #b6b82b);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
 }
 
-.left-poker {
-    max-width: 40px;
-    max-height: 40px;
-
+.custom-button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
 }
 
-.right-poker {
-    max-width: 40px;
-    max-height: 40px;
-
+.custom-button:disabled {
+    background: #F4FCD9;
+    color: black;
 }
